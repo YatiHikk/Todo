@@ -1,0 +1,72 @@
+body {
+  background-color: #FFCCCC;
+  font-family: sans-serif;
+}
+
+.container {
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;}
+
+.newToDo{
+  text-align: center;
+  background: #FF9999;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+
+}
+.btn {
+  margin-top: 30px;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #FF6666;}
+
+h1 {
+  text-align: center;}
+
+.text{
+  width: 350px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+span{
+  padding-right: 80px;
+}
+
+.delText{
+  color: #888888;
+  transition: 1s;
+  text-decoration: line-through;
+}
+
+.root{
+  margin-top: 30px;
+  padding: 0;
+}
+
+.delBtn{
+  border-radius: 10px;
+  background-color: #FF6666;
+  border-color: #FF6666;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.toDo{
+  word-break:break-all;
+  max-width: 400px;
+  display: block;
+  background-color: #FFCCCC;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px}
+
+.textTask{
+  display: flex;
+}
